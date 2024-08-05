@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cuprum:ital,wght@0,400..700;1,400..700&family=Holtwood+One+SC&family=Protest+Guerrilla&family=Russo+One&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(52deg, rgb(255, 131, 0), white);
+}
+
+.burst {
+  position: absolute;
+}
+
+.burst .line {
+  position: absolute;
+  background: rgb(239, 188, 143);
+  padding: 5px 7px;
+  border-radius: 52%;
+}
+
+.burst .line:nth-child(1) {
+  animation: move01 1.5s linear infinite;
+}
+
+@keyframes move01 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(0, -50px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0, -100px);
+    opacity: 0;
+  }
+}
+
+
+h1[target] {
+  display: flex;
+  justify-content: center;
+  font-family: "Protest Guerrilla", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+[title~="span"] {
+  color: rgb(255, 255, 255);
+}
+
+[title~="sub-heading"] {
+  color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+  font-family: "Russo One", sans-serif;
+}
+
+[title~="heding-span"] {
+  color: rgb(255, 132, 23);
+}
