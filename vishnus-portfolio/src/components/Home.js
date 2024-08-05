@@ -220,7 +220,7 @@ const Home = () => {
                         <button><a href="VISHNU V.pdf" download>DOWNLOAD CV</a></button>
                     </div>
                     <div className="bg">
-                        <img src="/images/image.png" alt="boy-image" className="home-img" id="reloadImage" onClick={handleClick} />
+                        <img src="./images/image.png" alt="boy-image" className="home-img" id="reloadImage" onClick={handleClick} />
                     </div>
                 </div>
             </section>
