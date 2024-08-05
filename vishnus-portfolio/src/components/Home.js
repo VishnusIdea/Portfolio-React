@@ -217,7 +217,7 @@ const Home = () => {
                             My goal is to continue growing as a developer and to be part of a team that challenges me to learn
                             and excel.
                         </p>
-                        <button><a href="../cv/VISHNU V.pdf" download>DOWNLOAD CV</a></button>
+                        <button><a href="../../cv/VISHNU V.pdf" download>DOWNLOAD CV</a></button>
                     </div>
                     <div className="bg">
                         <img src="./images/image.png" alt="-image" className="home-img" id="reloadImage" onClick={handleClick} />
